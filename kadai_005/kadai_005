@@ -1,0 +1,25 @@
+C:\Users\ichio> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\ichio
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/04/15     11:15                git_challenge
+
+
+PS C:\Users\ichio> Cd git_challenge
+PS C:\Users\ichio\git_challenge> git init
+PS C:\Users\ichio\git_challenge>git add hello_world.txt
+PS C:\Users\ichio\git_challenge> git commit -m "hello_world.txtを追加”
+[main (root-commit) 55def55] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\ichio\git_challenge>   git add hello_world.txt
+PS C:\Users\ichio\git_challenge> git commit -m "日本語訳を追記”
+[main c257abc] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+PS C:\Users\ichio\git_challenge> git log --oneline
+c257abc (HEAD -> main) 日本語訳を追記
+55def55 hello_world.txtを追加
